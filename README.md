@@ -1,4 +1,3 @@
-
 # Installation:
 
 ```
@@ -61,7 +60,6 @@ sortArray([1, 2, 4, 3, 5], "desc");
 
 # Filter Array
 
-
 ```
 const {filterArray} = require('js-array-operations');
 or
@@ -83,4 +81,31 @@ filterArray(
 
 filterArray([1, 2, 3, 4, 5], 1);
 ```
+
+# Reduce Array
+
+```
+const {reduceArray} = require('js-array-operations');
+or
+import {reduceArray} from 'js-array-operations';
+
+// With object name reduceArray(arrayData, operation = "sum", accum = 0,objectName);
+
+# operation can be: sum, multiply, minus
+
+reduceArray(
+  [
+    { product: "pen", price: 5 },
+    { product: "pencil", price: 2 },
+  ],
+  "sum",
+  0,
+  "price"
+);
+
+// Without object name reduceArray(arrayData, operation = "sum", accum = 0,objectName);
+
+reduceArray([10, 20, 30], "sum", 0);
+```
+
 # Other operations coming soon..

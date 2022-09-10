@@ -1,0 +1,20 @@
+{
+  "name": "js-array-operations",
+  "version": "1.0.2",
+  "description": "```\r npm i js-array-operations\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "akash kumar singh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akash22396/js-array-operations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akash22396/js-array-operations/issues"
+  },
+  "homepage": "https://github.com/akash22396/js-array-operations#readme"
+}

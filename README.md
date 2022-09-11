@@ -80,8 +80,24 @@ filterArray(
 // Without object name filterArray(arrayData,searchValue)
 
 filterArray([1, 2, 3, 4, 5], 1);
-```
 
+```
+Filter with multiple Objects filterByObject(arrayData,objectName)
+```
+const {filterByObject} = require('js-array-operations');
+or
+import {filterByObject} from 'js-array-operations';
+
+filterByObject(
+  [
+    { name: "akash", age: 25 },
+    { name: "ravi", age: 28 },
+    { name: "rajan", age: 25 },
+  ],
+  { name: "akash", age: 25 }
+)
+
+```
 # Reduce Array
 
 ```

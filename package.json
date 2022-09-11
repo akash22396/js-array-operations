@@ -1,6 +1,6 @@
 {
   "name": "js-array-operations",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "```\r npm i js-array-operations\r ```",
   "main": "index.js",
   "scripts": {
